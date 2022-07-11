@@ -6,7 +6,7 @@
 
 ## use python script or jupyter notebook
 
-## use the code like this:
+## use the code like this, then you will get all the tweet that contains a specific keyword:
 
 ```
 from twitter_scraper import TweetScraper
