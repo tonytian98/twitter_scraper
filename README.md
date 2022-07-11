@@ -1,14 +1,15 @@
 # twitter_scraper usage:
 
-*twitter_scraper code is in [here]()*
+*twitter_scraper code is in [here](https://github.com/tonytian98/twitter_scraper/blob/main/twitter_scraper.py)*
 
-download twitter_scraper.py
+## download twitter_scraper.py
 
-use python script or jupyternotebook
+## use python script or jupyter notebook
 
-use the code like this:
+## use the code like this:
 
 ```
+from twitter_scraper import TweetScraper
 scraper=TweetScraper('your_user_name','your_password','keyword',
                       
                       ####below are optional
@@ -47,3 +48,5 @@ The result is like:
   'retweet': 0,
   'like': 1}]
   ```
+  
+  ###You need to install Chrome and chrome webdriver(google it), also your python need to have selenium installed 
