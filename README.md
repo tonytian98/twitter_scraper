@@ -28,7 +28,7 @@ The data returned is a list of dictionaries of length limit.
 for example:
 
 ```
-scraper=TweetScraper('user','password','bitcoin',until=f'2021-01-31',limit= 2)
+scraper=TweetScraper('user','password','bitcoin',until='2021-01-31',limit= 2)
 data = scraper.scrape()
 print(data)
 ```
