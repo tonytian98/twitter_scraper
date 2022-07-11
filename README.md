@@ -2,7 +2,7 @@
 
 *twitter_scraper code is in [here]()*
 
-download twitter_scraaper.py
+download twitter_scraper.py
 
 use python script or jupyternotebook
 
