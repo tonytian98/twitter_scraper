@@ -13,17 +13,17 @@ scraper=TweetScraper('your_user_name','your_password','keyword',
                       
                       ####below are optional
                       
-                      lang = "en"  #language e.g. 'en', 'es', 'ar', 'fr' , 'zh-cn'  (representing english, spanish, Arabic, French, Mandarin) check                    https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages for details,
-                      since=None # when since and until both none, it gets the lastest tweets containing the "keyword"  but e.g. you can set since ='2022-04-28',
+                      lang = "en"  #language e.g. 'en', 'es', 'ar', 'fr' , 'zh-cn'  (representing english, spanish, Arabic, French, Mandarin) check https://developer.twitter.com/en/docs/twitter-for-websites/supported-languages for details,
+                      since=None # when since and until both none, it gets the lastest tweets containing the "keyword" ; but you can also set since = e.g. '2022-04-28',
                       until=None #  The upper time limit of tweets, e.g.  until = '2022-05-28',
                       limit= 2000, #meaning you only get 2000 tweets then the bot stops
                       reply = False, # meaning it won't include reply
-                      hide_bro=True # meaning a browser won't pop up. If set to FALSE it will.
+                      hide_bro=True # meaning a browser won't pop up. If it's set to False, a browser will pop up, but you can just ignore it, but don't close it!
                       )
 data = scraper.scrape()
 ```
         
-The data returned is dictionaries in a list of length limit.\
+The data returned is a list of dictionaries of length limit.
 
 for example:
 
@@ -33,6 +33,7 @@ data = scraper.scrape()
 print(data)
 ```
 The result is like:
+```
 [{'time': '2021-01-31T23:59:03',
   'id': 'JourneyTrade',
   'tweet': 'Beyond Bitcoin: Push For Everyday Cryptocurrency - http://: Beyond Bitcoin: Push For Everyday Cryptocurrency',
@@ -45,3 +46,4 @@ The result is like:
   'reply': 0,
   'retweet': 0,
   'like': 1}]
+  ```
