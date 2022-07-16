@@ -49,4 +49,4 @@ The result is like:
   'like': 1}]
   ```
   
-  ###You need to install Chrome and chrome webdriver(google it), also your python need to have selenium installed 
+  ###You need to install chrome webdriver and put the file on path(google it), also your python need to have selenium installed 
