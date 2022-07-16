@@ -19,7 +19,7 @@ scraper=TweetScraper('your_user_name','your_password','keyword',
                       until=None #  The upper time limit of tweets, e.g.  until = '2022-05-28',
                       limit= 2000, #meaning you only get 2000 tweets then the bot stops
                       reply = False, # meaning it won't include reply
-                      top = False, # it now gets the lastest tweets from *until* to *start* ; If set to True, it only gets the top (hottest) tweets, notice twitter's top tweets have a limited number, e.g. even if you set *limit*=1000, you may only get 100 top tweets because that's just all of it.
+                      top = False, # it now gets the lastest tweets from until to start ; If set to True, it only gets the top (hottest) tweets, notice twitter's top tweets have a limited number, e.g. even if you set limit=1000, you may only get 100 top tweets because that's just all of it.
                       hide_bro=True # meaning a browser won't pop up. If it's set to False, a browser will pop up, but you can ignore it, just don't close it!
                       )
 data = scraper.scrape()
