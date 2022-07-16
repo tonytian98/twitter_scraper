@@ -2,11 +2,11 @@
 
 *twitter_scraper code is in [here](https://github.com/tonytian98/twitter_scraper/blob/main/twitter_scraper.py)*
 
-## download twitter_scraper.py
+## Step1: download twitter_scraper.py
 
-## use python script or jupyter notebook
+## Step2: use python
 
-## use the code like this, then you will get all the tweets that contain a specific keyword:
+## Step3: use the code like this, then you will get all the tweets that contain a specific keyword:
 
 ```
 from twitter_scraper import TweetScraper
